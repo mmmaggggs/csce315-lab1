@@ -7,7 +7,7 @@ h1 {
     text-decoration: green wavy underline;
     }
 #red_underline_text {
-    color: rgb(142, 215, 53);
+    color: rgb(59, 72, 42);
     text-decoration: underline;
     }    
 
@@ -15,3 +15,26 @@ h1 {
         font: 15px verdana, sans-serif;
         text-align: justify;
     }
+d {
+    font: Arial, Helvetica, sans-serif;
+    color: rgb(67, 61, 61);
+}
+
+c {
+    font: Cursive, Lucienda-Handwriting;
+    color: pink;
+}
+.button {
+    background-color: green;
+    border: green;
+    color: white;
+    transition-duration: 0.5s;
+    text-align: center;
+    padding: 15px 30px;
+    font-size: 14px;
+}
+.button:hover {
+    background-color: green;
+    color: white;
+
+}
