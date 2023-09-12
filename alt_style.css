@@ -58,6 +58,12 @@ b {
     left: 700px;
     top: 215px;
 }
+.menu_buttons_mid {
+    position: absolute;
+    left: 50px;
+    right: 500px;
+    top: 15px;
+}
 .menu_buttons_index {
     position: absolute;
     margin-left: 500px;
@@ -92,3 +98,34 @@ h1 {
     left: 475px;
 }
 
+.classes {
+    position: absolute;
+    left: 60px;
+    top: 225px;
+}
+
+.interests {
+    position: absolute;
+    left: 80px;
+    top: 475px;
+}
+
+.gitHub {
+    position: absolute;
+    right: 15px;
+    top: 150px;
+    margin: auto;
+}
+
+.fav_proj {
+    position: absolute;
+    left: 525px;
+    right: 525px;
+    top: 250px;
+}
+
+#brown_underline_text {
+    color: rgb(152, 66, 81);
+    text-decoration: underline;
+    font-size: 25px;
+}
