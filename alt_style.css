@@ -3,6 +3,8 @@ body {
     background: rgb(221, 199, 203);
     margin: 0px;
     font-size: 20px;
+    font: 14px copperplate, Fantasy;
+    text-decoration-color: aquamarine;
 }
 
 dd {
@@ -15,11 +17,6 @@ dd {
     height: 175px;
 }
 
-.menu_buttons {
-    position: absolute;
-    left: 250px;
-    top: 15px;
-}
 
 b {
     border-right-style: rgb(208, 161, 222);
@@ -32,27 +29,66 @@ b {
 .highlight {
     display: inline-block;
     padding: .25em 0;
-    background-color: lightblue; 
+    background-color: rgb(173, 183, 168); 
     border-radius: 8px;
 }
 
 .button { 
-    display: inline-block;
+    display: block;
     font-weight: 300;
     border: 1px solid transparent;
     border-radius: 7px;
     height: 25px;
-    font-size: 14px;
+    width: 15%;
+    font: 14px copperplate, Fantasy;
     color: #c497c3;
     background-color: #e2d4be;
     transition-duration: 0.5s;
     text-align: center;
-    padding: 5px 18px;
+    padding: 5px 5px;
     letter-spacing: 20x;
 }
-button:hover {
+.button:hover {
         color: #241c15;
-        background-color: #d9d7cd;
-    }
+        background-color: #d3ca9b;
+}
 
+.menu_buttons {
+    position: absolute;
+    left: 700px;
+    top: 215px;
+}
+.menu_buttons_index {
+    position: absolute;
+    margin-left: 500px;
+    margin-right: 0px;
+}
+
+.indeximage {
+    position: absolute;
+    margin-left: 0px;
+}
+
+p {
+    font: 20px monaco, Monospace;
+    text-align: center;
+}
+
+h1 {
+    font: 75px Lucida Handwriting, cursive;
+    color: rgb(255, 253, 252);
+}
+
+.resume {
+    position: absolute;
+    right: 75px;
+    top: 5px;
+}
+
+.socials {
+    position: absolute;
+    right: 415px;
+    top: 15px;
+    left: 475px;
+}
 

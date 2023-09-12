@@ -19,6 +19,11 @@ dd {
     left: 700px;
     top: 215px;
 }
+.menu_buttons_index {
+    position: absolute;
+    left: 300px;
+    right: 500px;
+}
 
 
 
@@ -130,7 +135,7 @@ c {
     left: 0px;
 }
 .image2 {
-    position:absolute;
+    position: absolute;
     left: 0px;
     top: 250px;
 }
@@ -163,7 +168,21 @@ c {
 
 .indeximage {
     position: absolute;
-    left: 1100px;
+    margin-left: 1050px;
+    margin-right: 0px;
+}
+
+.resume {
+    position: absolute;
+    right: 600px;
+    bottom: -50px;
+}
+
+.socials {
+    position: absolute;
+    left: 100px;
+    right: 450px;
+    bottom: -130px;
 }
 
 
