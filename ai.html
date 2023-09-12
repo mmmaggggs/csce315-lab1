@@ -1,29 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Blog Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d3c7a5; /* Light brown background color */
+            color: #357a38; /* Green text color */
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .blog-post {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            max-width: 45%;
+            height: auto;
+        }
+
+        .blog-post-text {
+            max-width: 50%;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            color: #357a38; /* Green heading color */
+        }
+
+        p {
+            font-size: 16px;
+            color: #357a38; /* Green text color */
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
-        <nav>
-            <a href="index.html">//back to me!!</a>
-        </nav>
+        <h1>My Colorful Blog</h1>
     </header>
+    <div class="container">
+        <div class="blog-post">
+            <img src="lubs.JPG" alt="Lubbock">
+            <div class="blog-post-text">
+                <h2>Exploring Lubbock, Texas</h2>
+                <p>Lubbock, Texas, is a vibrant city known for its rich culture and traditions. It's famous for its passionate football fans who support the Texas Tech Red Raiders. Attending a football game in Lubbock is an unforgettable experience, surrounded by the energy and enthusiasm of fellow fans.</p>
+                <p>During my visit, I also explored Palo Duro Canyon, often referred to as the "Grand Canyon of Texas." The stunning natural beauty of the canyon with its colorful rock formations and hiking trails left me in awe. Lubbock offers a unique blend of sports and outdoor adventures that make it a must-visit destination.</p>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="maples.JPG" alt="Lost Maples">
+            <div class="blog-post-text">
+                <h2>Went to Lost Maples and camped in super hot weather!!</h2>
+                <p>Lost Maples is a beautiful state park located in Texas, known for its stunning fall foliage and rugged terrain. During my trip, I hiked through the trails and enjoyed the picturesque landscapes. Despite the scorching heat, the experience was unforgettable.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Prompts:</h2>
+        <textarea rows="10" cols="50" readonly>
+1. Create a blog page with two photos side by side and text below each photo.
+2. In the same code, make it a little more colorful. Also, use "lubs.jpg" and "maples.jpg" for the images. for the lubs caption, use "Visited Lubbock for a day!" and for the maples caption use "Went to Lost Maples and camped in super hot weather!!"
+3. In the same code, add a light brown and some greens to the background and the words. In the paragraph below the captions, replace the other words with a paragraph that has to do with Lubbock in the lubbock picture and a paragraph about Lost Maples in the lost maples picture.
+4. In the same code, alter the Lubbock text to be about Lubbock, Texas. Talk about the football games and Palo Duro Canyon.
+5. Change the title to "The AI Blog" and then, at the bottom of the page, include a textbox of every prompt I sent about this page.
+        </textarea>
+        <a href="index.html" class="button">Homepage</a>
+    </div>
     
-    <main>
-        <h1><center>generate a page in html with two random pictures that have a text space at the bottom. Have the title be "Blog" at the top with a home button. Let there be a see more link in the middle of the two pictures.</center></h1>
-        <section>
-            <img src="https://via.placeholder.com/300" alt="Random Picture 1">
-            <p>Text space at the bottom of Picture 1.</p>
-        </section>
-        
-        <a href="#">See More</a>
-        
-        <section>
-            <img src="https://via.placeholder.com/300" alt="Random Picture 2">
-            <p>Text space at the bottom of Picture 2.</p>
-        </section>
-    </main>
 </body>
 </html>
+
+
+
+
+
+

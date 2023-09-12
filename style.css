@@ -1,20 +1,104 @@
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(47, 189, 189);
+body {
+	color: rgb(81, 48, 21);
+	background: rgb(218, 210, 192);
+	margin: 0px;
+    font-size: 20px;
+}
+
+dd {
+    border-top-style: solid;
+    background-color: rgb(81, 48, 21);
+    border-top-color: rgb(81, 48, 21);
+    width: 100%;
+    height: 175px;
+    position: absolute;
+}
+
+.menu_buttons {
+    position: absolute;
+    left: 700px;
+    top: 215px;
+}
+
+
+
+b {
+    border-left-style: rgb(51, 50, 50);
+    background-color: rgb(51, 50, 50);
+    height: 100%;
+    width: 250px;
+    position: absolute;
     }
+
+
+
+.highlight {
+    display: inline-block;
+    padding: .25em 0;
+    background-color: rgb(104, 72, 45);
+    color: rgb(164, 146, 128);
+}
+
+p {
+	font: 17px/19px Lucida Console, Monospace;
+	text-align: justify;
+	margin-top: 0;
+    top: 100px;
+	left: 0px;
+	margin-left: 50px;
+	margin-right: 60px;
+	}
+
+#corner1 {
+    border-style: solid;
+    border-radius: 10px;
+    border-width: thick;
+    border-color: rgb(126, 105, 83);
+    border-spacing: 5px;
+    padding: 10px 10px;
+    bottom: 0px;
+}
+
+a:link { 
+	font-weight: bold; 
+	color: #b69585;
+	}
+
+a:visited { 
+	font-weight: bold;  
+	color: rgb(114, 92, 75);
+	}
+
+a:hover, a:active { 
+	color: white;
+	}
+
+h1 {
+    font: 75px Copperplate, fantasy;
+    color: rgb(164, 146, 128);
+    }
+h2 {
+    font: 100px Brush Script MT, cursive;
+    color: rgb(164, 146, 128);
+    }
+    
+
 .blue_overline_text {
     color: green;
     text-decoration: green wavy underline;
     }
-#red_underline_text {
-    color: rgb(59, 72, 42);
+#brown_underline_text {
+    color: rgb(91, 79, 62);
     text-decoration: underline;
+    font-size: 25px;
     }    
 
  p {
         font: 15px verdana, sans-serif;
         text-align: justify;
     }
+
+
 d {
     font: Arial, Helvetica, sans-serif;
     color: rgb(67, 61, 61);
@@ -25,16 +109,63 @@ c {
     color: pink;
 }
 .button {
-    background-color: green;
-    border: green;
+    background-color: rgb(51, 50, 50);
+    border: rgb(0, 0, 0);
+    border-radius: 8px;
     color: white;
     transition-duration: 0.5s;
     text-align: center;
     padding: 15px 30px;
     font-size: 14px;
+    letter-spacing: 60x;
 }
 .button:hover {
-    background-color: green;
+    background-color: rgb(146, 191, 211);
     color: white;
 
 }
+
+.image1 {
+    position: absolute;
+    left: 0px;
+}
+.image2 {
+    position:absolute;
+    left: 0px;
+    top: 250px;
+}
+.image3 {
+    position: absolute;
+    left: 0px;
+    top: 500px;
+}  
+
+
+.resume_link {
+    font: 100px Monaco, monospace;
+    color: rgb(123, 109, 94);
+    position: absolute;
+    left: 400px;
+    right: 700px;
+    top: 300px;
+}
+
+#linebreak::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.resume_picture {
+    position: absolute;
+    left: 600px;
+    top: 335px;
+}
+
+.indeximage {
+    position: absolute;
+    left: 1100px;
+}
+
+
+
+
