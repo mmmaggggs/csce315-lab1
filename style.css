@@ -104,7 +104,7 @@ h2 {
     }
 
 
-d {
+h4 {
     font: Arial, Helvetica, sans-serif;
     color: rgb(67, 61, 61);
 }
@@ -132,7 +132,6 @@ c {
 
 .image1 {
     position: absolute;
-    left: 0px;
 }
 .image2 {
     position: absolute;
@@ -219,3 +218,33 @@ c {
     top: 250px;
 }
 
+.resume_box {
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    right: 50px;
+}
+
+.asc {
+    position: absolute;
+    left: 275px;
+    right: 875px;   
+}
+
+.big_event {
+    position: absolute;
+    left: 615px;
+    right: 515px;
+}
+
+.church {
+    position: absolute;
+    left: 975px;
+    right: 135px;
+}
+
+#asc_image {
+    width: 150px;
+    height: 200px;
+    object-position: top 500px left 500px;
+}

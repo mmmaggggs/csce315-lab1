@@ -1,16 +1,16 @@
 body {
-    color: rgb(201, 123, 135);
-    background: rgb(221, 199, 203);
+    color: rgb(52, 50, 50);
+    background: rgb(188, 188, 188);
     margin: 0px;
     font-size: 20px;
-    font: 14px copperplate, Fantasy;
+    font: 14px Helvetica, sans-serif;
     text-decoration-color: aquamarine;
 }
 
 dd {
     border-top-style: solid;
-    background-color: rgb(228, 228, 180);
-    border-top-color: rgb(228, 228, 180);
+    background-color: rgb(71, 70, 71);
+    border-top-color: rgb(157, 152, 161);
     border: thick dotted;
     width: 100%;
     position: absolute;
@@ -19,17 +19,17 @@ dd {
 
 
 b {
-    border-right-style: rgb(208, 161, 222);
+    border-right-style: rgb(36, 34, 36);
     padding: .25em 0;
     height: 100%;
     width: 250px;
-    background-color: rgb(209, 180, 228);
+    background-color: rgb(19, 19, 19);
 }
 
 .highlight {
     display: inline-block;
     padding: .25em 0;
-    background-color: rgb(173, 183, 168); 
+    background-color: rgb(254, 255, 253); 
     border-radius: 8px;
 }
 
@@ -41,7 +41,7 @@ b {
     height: 25px;
     width: 15%;
     font: 14px copperplate, Fantasy;
-    color: #c497c3;
+    color: #9d9d9d;
     background-color: #e2d4be;
     transition-duration: 0.5s;
     text-align: center;
@@ -55,8 +55,9 @@ b {
 
 .menu_buttons {
     position: absolute;
-    left: 700px;
-    top: 215px;
+    left: 300px;
+    right: 500px;
+    top: 35px;
 }
 .menu_buttons_mid {
     position: absolute;
@@ -76,13 +77,28 @@ b {
 }
 
 p {
-    font: 20px monaco, Monospace;
+    font: 20px copperplate, Fantasy;
     text-align: center;
 }
 
 h1 {
     font: 75px Lucida Handwriting, cursive;
-    color: rgb(255, 253, 252);
+    color: rgb(72, 66, 62);
+}
+
+h2 {
+    font: 75px Lucida Handwriting, cursive;
+    color:#c497c3;
+}
+
+h3 {
+    font: 20px Helvetica, sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font: 20px Helvetica, sans-serif;
+    text-align: center;
 }
 
 .resume {
@@ -129,3 +145,62 @@ h1 {
     text-decoration: underline;
     font-size: 25px;
 }
+
+.image1 {
+    position: absolute;
+    left: 200px;
+    bottom: 0px;
+}
+.image2 {
+    position: absolute;
+    left: 550px;
+    bottom: 0px;
+}
+.image3 {
+    position: absolute;
+    left: 900px;
+    bottom: 0px;
+}  
+
+.resume_picture {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.resume_link {
+    font: 55px copperplate, Fantasy;
+    color: #c497c3;
+    position: absolute;
+    1left: -50px;
+    right: 700px;
+    top: 150px;
+}
+
+.resume_box {
+    position: absolute;
+    top: 250;
+    left: 500;
+}
+
+.asc {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+    right: 400px;
+}
+
+.big_event {
+    position: absolute;
+    top: 500px;
+    left: 400px;
+    right: 400px;   
+}                                                   
+
+.church {
+    position: absolute;  
+    top: 750px;  
+    left: 400px;
+    right: 400px;        
+}
+
