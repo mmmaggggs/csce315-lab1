@@ -1,9 +1,9 @@
 body {
     color: rgb(52, 50, 50);
-    background: rgb(188, 188, 188);
+    background: rgb(198, 195, 195);
     margin: 0px;
     font-size: 20px;
-    font: 14px Helvetica, sans-serif;
+    font: 20px Helvetica, sans-serif;
     text-decoration-color: aquamarine;
 }
 
@@ -77,18 +77,31 @@ b {
 }
 
 p {
-    font: 20px copperplate, Fantasy;
+    font: 15px Helvetica, sans-serif;
     text-align: center;
 }
 
+#corner1 {
+    border-style: solid;
+    border-radius: 3px;
+    border-width: thick;
+    border-color: rgb(215, 207, 166);
+    border-spacing: 5px;
+    padding: 10px 10px;
+    bottom: 0px;
+}
+
+
 h1 {
     font: 75px Lucida Handwriting, cursive;
-    color: rgb(72, 66, 62);
+    color: rgb(95, 94, 94);
+    margin-bottom: 0px;
 }
 
 h2 {
     font: 75px Lucida Handwriting, cursive;
-    color:#c497c3;
+    
+    color:#4b4b4a;
 }
 
 h3 {
@@ -109,9 +122,9 @@ h4 {
 
 .socials {
     position: absolute;
-    right: 415px;
+    right: 430px;
     top: 15px;
-    left: 475px;
+    left: 417px;
 }
 
 .classes {
@@ -123,7 +136,7 @@ h4 {
 .interests {
     position: absolute;
     left: 80px;
-    top: 475px;
+    top: 675px;
 }
 
 .gitHub {
@@ -135,8 +148,8 @@ h4 {
 
 .fav_proj {
     position: absolute;
-    left: 525px;
-    right: 525px;
+    left: 600px;
+    right: 450px;
     top: 250px;
 }
 
@@ -170,37 +183,64 @@ h4 {
 
 .resume_link {
     font: 55px copperplate, Fantasy;
-    color: #c497c3;
+    color: #909090;
     position: absolute;
-    1left: -50px;
+    left: -50px;
     right: 700px;
     top: 150px;
 }
 
 .resume_box {
     position: absolute;
-    top: 250;
-    left: 500;
+    top: 150px;
+    right: 150px;
+    float: right; 
 }
 
 .asc {
     position: absolute;
     top: 150px;
-    left: 400px;
-    right: 400px;
+    left: 0px;
+    right: 700px;
 }
 
 .big_event {
     position: absolute;
-    top: 500px;
-    left: 400px;
-    right: 400px;   
+    top: 400px;
+    left: 800px;
+    right: 0px;   
 }                                                   
 
 .church {
     position: absolute;  
-    top: 750px;  
-    left: 400px;
-    right: 400px;        
+    top: 700px;  
+    left: 0px;
+    right: 700px;        
+}
+
+a:link { 
+	font-weight: bold; 
+	color: #e1d989;
+	}
+
+a:visited { 
+	font-weight: bold;  
+	color: rgb(107, 165, 179);
+	}
+
+a:hover, a:active { 
+	color: white;
+	}
+
+.for_toggle {
+    position: absolute;
+    left: 500px;
+}
+
+.resume_explain {
+    position: absolute;
+    top: 285px;
+    left: 300px;
+    right: 800px;
 }
 

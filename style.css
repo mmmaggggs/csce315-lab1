@@ -81,7 +81,9 @@ a:hover, a:active {
 h1 {
     font: 75px Copperplate, fantasy;
     color: rgb(164, 146, 128);
+    margin-bottom: 0px;
     }
+
 h2 {
     font: 100px Brush Script MT, cursive;
     color: rgb(164, 146, 128);
@@ -174,7 +176,7 @@ c {
 .resume {
     position: absolute;
     right: 600px;
-    bottom: -50px;
+    bottom: 0px;
 }
 
 .socials {
@@ -200,7 +202,7 @@ c {
 .interests {
     position: absolute;
     left: 150px;
-    top: 575px;
+    top: 700px;
 }
 
 .gitHub {
@@ -221,8 +223,8 @@ c {
 .resume_box {
     position: absolute;
     top: 300px;
-    left: 1000px;
-    right: 50px;
+    left: 850px;
+    right: 300px;
 }
 
 .asc {
@@ -243,8 +245,17 @@ c {
     right: 135px;
 }
 
-#asc_image {
-    width: 150px;
-    height: 200px;
-    object-position: top 500px left 500px;
+.resume_title {
+    position: absolute;
+    top: 0px;
+    left: 700px;
 }
+    
+.resume_explain {
+    position: absolute;
+    top: 310px;
+    left: 1185px;
+    right: 15px;
+    float: right;
+}
+

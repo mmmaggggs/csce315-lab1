@@ -5,9 +5,16 @@
         <link rel="stylesheet" type="text/css" href="style.css" id="page_style"/>
     </head>
     <body>
-            <pos style="position: absolute; top: 0px; left: 700px">
-            <h2><center>"RESUME"</center></h2>
-            </pos>
+
+    <pos style="position: absolute; top: 0px; left: 500px">
+        <button type="button" onclick="brown_mode()">Brown Theme</button>
+        <button type="button" onclick="bright_mode()">B&W Theme</button>
+        <script src="functions.js"></script>
+    </pos>
+
+    <pos class="resume_title">
+       <h2><center>"RESUME"</center></h2>
+    </pos>
     
     <pos class="menu_buttons">
         <a href="index.html" class="button">//home</a> 
@@ -53,11 +60,16 @@
             <li>Full Stack Development</li>
             </ul>
         </p>
-        <button type="button" onclick="brown_mode()">Brown Theme</button>
-        <button type="button" onclick="bright_mode()">B&W Theme</button>
-        <script src="functions.js"></script>
     </pos>
-    
+
+    <pos class="resume_explain"> 
+            My areas of interest in Computer Science include <span class = "highlight">Software Engineering</span>, 
+        <span class = "highlight">Data Management</span>, and <span class = "highlight">Development and Implementation</span>. I had 
+        gone into school in the pursuit of cyber securtity but, taking programming classes and learning more about how 
+        the industry operates, I have become more involved and infatuated by the realm of software engineering. I would be 
+        ecstatic to recieve mentorship and oppurtunies to further my knowledge in development.
+    </pos>
+
         
     </body>
 </html>
